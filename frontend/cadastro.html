@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Cadastro - Academia</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="card">
+    <h2>Cadastro</h2>
+
+    <form action="../backend/cadastro.php" method="POST" enctype="multipart/form-data">
+      <input type="text" name="nome" placeholder="Nome completo" required>
+      <input type="email" name="email" placeholder="Email" required>
+      <input type="password" name="senha" placeholder="Senha" required>
+      <input type="date" name="data_nascimento" required>
+      <input type="text" name="telefone" placeholder="Telefone">
+      <input type="text" name="endereco" placeholder="Endereço">
+      <input type="file" name="foto" accept="image/*" required>
+      <button type="submit">Cadastrar</button>
+    </form>
+
+    <p class="form-footer">Já tem conta? <a href="login.html">Faça login</a></p>
+  </div>
+</body>
+</html>
