@@ -1,4 +1,4 @@
-content = """# 🏋️‍♂️ Sistema de Academia
+# Sistema de Academia
 
 Projeto de gerenciamento de academia desenvolvido em **PHP** e **MySQL**.  
 O sistema é dividido em **frontend** e **backend**, com suporte a upload de arquivos.  
